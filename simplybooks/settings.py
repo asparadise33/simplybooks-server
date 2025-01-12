@@ -63,6 +63,8 @@ MIDDLEWARE = [
 ]
 WSGI_APPLICATION = 'simplybooks.wsgi.application'
 
+ROOT_URLCONF = 'simplybooks.urls'
+
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

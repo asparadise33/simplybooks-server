@@ -14,9 +14,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
+
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
+from simplybooksapi.views import AuthorView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'authors', AuthorView, 'author')
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', include(router.urls)),
 ]
