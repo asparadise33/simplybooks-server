@@ -1,0 +1,28 @@
+[
+  {
+      "model": "simplybooksapi.genre",
+      "pk": 1,
+      "fields": {
+          "genre_name": "Memoir"
+          
+      }
+  },
+
+  {
+    "model": "simplybooksapi.genre",
+    "pk": 2,
+    "fields": {
+      "genre_name": "Fiction"
+        
+    }
+},
+
+{
+  "model": "simplybooksapi.genre",
+  "pk": 3,
+  "fields": {
+    "genre_name": "Southern Gothic"
+      
+  }
+}
+]

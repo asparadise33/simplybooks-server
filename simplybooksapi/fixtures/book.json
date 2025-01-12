@@ -1,0 +1,44 @@
+[ {
+  "model": "simplybooksapi.book",
+  "pk": 1,
+  "fields": {
+     "author_id": "1",
+     "title": "Dreams of My Father",
+     "image":"e9alSKuJCr08PRtvbRdyjyI3ijlLMpJYETIiuFJwcBiSNsjy50o7WMO6aUk0wNIHVpCGYJqU7MNjtkbHptU60Ghgganh6Os7FGNsdG0pTvMd5gBrkx7NqwPDj55qU2M++iFkw1A2r4JXyomfnQBZRy5FO11WJLg86JWXNQBLdrqUis266SRWiV6p+LRYOahosnQFqNNxk71xDviiY4utLGoLuMLFgDeqiVdqO4hJ7K0Pcrgb7UR2CQ/gUjpKsiMVZDkMNiD/AF0r1XhXb9cAXKEHlrQZB9SnMfDNeW8K5E+tWU7YGfLB+VVyYYZPmRVZHHg9Vj7dcPIz9ZUehWQH5aaq+L/SPbxg9yjyt540Jn1J8R",
+     "price": 24.99,
+     "sale": false,
+     "description": "A pretty great book from Barry O.",
+     "uid": "1uHXCoMEKKa4ppmyC0W1AC6ZTmQ2"
+     
+  }
+},
+
+{
+  "model": "simplybooksapi.book",
+  "pk": 2,
+  "fields": {
+     "author_id": "2",
+     "title": "To Kill a Mockingbird",
+     "image": "dVOyYs8yA2OU2NjY+NtKSJcFjMiCOKcN2E6yl5ibyFoCHXvNe+V8vugC//+W7MjTPY3t0AyYNzbMTJFfrYB1HoA3o1arX542NsiZsPJjYHyvhnUkDQhct84J0JB+j0+Fa7uLvkmPTKwyzoLutu6eWZTyB6HUePGublhm0XFjVRRRWBZ//2Q==",
+     "price": 12.50,
+     "sale": true,
+     "description": "You know it, you love it, it'll make you cry",
+     "uid": "1uHXCoMEKKa4ppmyC0W1AC6ZTmQ2"
+     
+  }
+},
+{
+  "model": "simplybooksapi.book",
+  "pk": 3,
+  "fields": {
+     "author_id": "3",
+     "title": "Everything That Rises Must Converge",
+     "image": "https://bookoutlet.com/api/image?url=https://images.bookoutlet.com/covers/large/isbn978037/9780374504649-l.jpg&w=3840&q=75",
+     "price": 9.99,
+     "sale": false,
+     "description": "A Southern Gothic at it's finest.",
+     "uid": "1uHXCoMEKKa4ppmyC0W1AC6ZTmQ2"
+     
+  }
+}
+]
