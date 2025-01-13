@@ -18,11 +18,12 @@ Including another URLconf
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from simplybooksapi.views import AuthorView, BookView
+from simplybooksapi.views import AuthorView, BookView, GenreView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'authors', AuthorView, 'author')
 router.register(r'books', BookView, 'book')
+router.register(r'genres', GenreView, 'genre')
 
 urlpatterns = [
     path('', include(router.urls)),
