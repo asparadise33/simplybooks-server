@@ -1,0 +1,27 @@
+[
+  {
+      "model": "simplybooksapi.bookgenre",
+      "pk": 1,
+      "fields": {
+          "book": "1",
+          "genre": "2"
+         
+      }
+  },
+  {
+    "model": "simplybooksapi.bookgenre",
+    "pk": 2,
+    "fields": {
+       "book": "2",
+       "genre": "1"
+    }
+},
+{
+  "model": "simplybooksapi.bookgenre",
+  "pk": 3,
+  "fields": {
+      "book": "3",
+      "genre": "3"
+  }
+}
+]
